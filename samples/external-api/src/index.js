@@ -32,7 +32,7 @@ class App extends React.Component {
       this.onExternalChange
     );
 
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("https://www.realself.com/treatmentoverview/ajaxgetphototags?id=25")
       .then(res => res.json())
       .then(
         (items) => {
